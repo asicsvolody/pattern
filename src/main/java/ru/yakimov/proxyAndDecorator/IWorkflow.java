@@ -4,7 +4,7 @@
  * E-mail: yakimovvn@bk.ru
  */
 
-package ru.yakimov.proxy;
+package ru.yakimov.proxyAndDecorator;
 
 public interface IWorkflow {
     void startWork();

@@ -1,6 +1,4 @@
-package ru.yakimov.proxy;
-
-import java.util.logging.Logger;
+package ru.yakimov.proxyAndDecorator;
 
 /**
  * Created by IntelliJ Idea.
@@ -8,10 +6,10 @@ import java.util.logging.Logger;
  * E-mail: yakimovvn@bk.ru
  */
 
-public class WorkflowProxy {
+public class WorkflowProxyAndDecorator {
     private IWorkflow workflow;
 
-    public WorkflowProxy(IWorkflow workflow) {
+    public WorkflowProxyAndDecorator(IWorkflow workflow) {
         this.workflow = workflow;
     }
 
@@ -23,7 +21,7 @@ public class WorkflowProxy {
 
 
     public static void main(String[] args) {
-        new WorkflowProxy(new Workflow()).startWorkflowWithLogs();
+        new WorkflowProxyAndDecorator(new Workflow()).startWorkflowWithLogs();
     }
 
 

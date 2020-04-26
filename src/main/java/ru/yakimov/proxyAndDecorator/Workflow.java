@@ -1,4 +1,4 @@
-package ru.yakimov.proxy;
+package ru.yakimov.proxyAndDecorator;
 
 /**
  * Created by IntelliJ Idea.

@@ -1,0 +1,14 @@
+package ru.yakimov.DataMapper.repository;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+import ru.yakimov.DataMapper.entities.Student;
+
+/**
+ * Created by IntelliJ Idea.
+ * User: Якимов В.Н.
+ * E-mail: yakimovvn@bk.ru
+ */
+
+public interface StudentRepo extends CrudRepository<Student, Long> {
+}
